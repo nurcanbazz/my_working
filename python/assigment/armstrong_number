@@ -1,0 +1,10 @@
+number = int(input("Pozitif bir sayı giriniz"))
+total = 0
+for test in str(number):
+    total = total + (int(test) ** len(str(number)))
+
+if (total == number):
+     print("Bu sayı armstrong sayısıdır. ")
+else:
+     print("Bu sayı armstrong sayısı değildir.")
+  
