@@ -1,0 +1,5 @@
+fibonacci = [1,1]
+while 55 not in fibonacci :
+	fibonacci_1 = fibonacci[-1] +fibonacci[-2]
+	fibonacci.apend(fibonacci_1)
+print(fibonacci)
